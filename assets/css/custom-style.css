@@ -1,0 +1,53 @@
+main{
+  min-height: 500vh;
+}
+
+header{
+  min-height: 70vh;
+  background-image: url(./../img/header-bg2.svg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+#header-title{
+  height: 300px;
+}
+
+a{
+  font-size: 1rem;
+}
+
+.logo-navbar{
+  width: 50px;
+}
+
+.logos-navbar{
+ width: 200px;
+}
+
+.navbar{
+  padding: 10px;
+}
+
+@media screen and (min-width:1200px){
+
+  nav div:nth-child(1){
+    order: 2;
+  }
+
+  nav div:nth-child(2){
+    order: 1;
+  }
+}
