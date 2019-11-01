@@ -1,5 +1,12 @@
+/* #343A40 */
+html {
+  scroll-behavior: smooth;
+}
+
 main{
-  min-height: 500vh;
+  background-image: url(./../img/main-bg3.svg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header{
@@ -21,12 +28,19 @@ h2{
   color: white;
 }
 
-#header-title{
-  height: 300px;
+nav li>a{
+  font-size: 1rem;
+  white-space: nowrap;
 }
 
-a{
-  font-size: 1rem;
+p{
+  color: black;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#header-title{
+  height: 300px;
 }
 
 .logo-navbar{
@@ -41,13 +55,35 @@ a{
   padding: 10px;
 }
 
+#presentation{
+  min-height: 100vh;
+}
+
+h3{
+  font-size: 2rem;
+  color: #462B4C;
+}
+
+.bloc-text{
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 30px;
+  border: 8px solid white;
+}
+
+#presentation img{
+  width: 250px;
+  border-radius: 120px;
+  border: 8px solid white;
+}
+
+
 @media screen and (min-width:1200px){
 
-  nav div:nth-child(1){
+  nav>div:nth-child(1){
     order: 2;
   }
 
-  nav div:nth-child(2){
+  nav>div:nth-child(2){
     order: 1;
   }
 }
