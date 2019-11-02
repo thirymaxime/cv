@@ -1,3 +1,15 @@
+$(function(){
+  $('[data-toggle="github-tooltip"]').tooltip();
+});
+
+$(function(){
+  $('[data-toggle="linkedin-tooltip"]').tooltip();
+});
+
+$(function(){
+  $('[data-toggle="email-tooltip"]').tooltip();
+});
+
 document.querySelector('div.logos-navbar > a:nth-child(1)').addEventListener('mouseover', function(){
   document.querySelector('div.logos-navbar > a:nth-child(1) > img').src = 'assets/img/github-logo-hover.png';
 });

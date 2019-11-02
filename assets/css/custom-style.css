@@ -59,17 +59,52 @@ p{
   min-height: 100vh;
 }
 
+#experience-formations{
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+#competences{
+  min-height: 100vh;
+}
+
 h3{
   font-size: 2rem;
   color: #462B4C;
 }
 
 .bloc-text{
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0.9);
   padding: 30px;
   border: 8px solid white;
 }
 
+.bloc-competences{
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 5px;
+  border: 8px solid white;
+  margin: 10px;
+}
+
+.logo-competences{
+  width: 100px;
+}
+
+.progress{
+  border: 2px solid #343A40;
+}
+
+.progress-bar-html{
+  background-color: #F16524;
+}
+
+.progress-bar-css{
+  background-color: #29A9DF;
+}
+
+.progress-bar-bootstrap{
+  background-color: #62488A;
+}
 #presentation img{
   width: 250px;
   border-radius: 120px;
