@@ -105,6 +105,36 @@ h3{
 .progress-bar-bootstrap{
   background-color: #62488A;
 }
+
+.progress-bar-js{
+  background-color: #DAB92D;
+}
+
+.progress-bar-php{
+background-color: #4F5B93;
+}
+
+.progress-bar-mysql{
+background-color: #00678F;
+}
+
+.progress-bar-git{
+background-color: #F05033;
+}
+
+.progress-bar-jquery{
+background-color: #0C68AC;
+}
+
+.progress-bar-anglais{
+background-color: #00009C;
+}
+
+
+#competences h3{
+  font-size: 1.6rem;
+}
+
 #presentation img{
   width: 250px;
   border-radius: 120px;
