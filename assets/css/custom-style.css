@@ -4,9 +4,9 @@ html {
 }
 
 main{
-  background-image: url(./../img/main-bg3.svg);
-  background-size: cover;
-  background-attachment: fixed;
+ background-image: url(./../img/main-bg.svg);
+ background-size: cover;
+ background-attachment: fixed;
 }
 
 header{
@@ -71,6 +71,24 @@ p{
 h3{
   font-size: 2rem;
   color: #462B4C;
+}
+
+#presentation h3{
+  font-size: 2.8rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#experience-formations h3{
+  font-size: 2.8rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#competences>div>div>div>h3{
+  font-size: 2.8rem;
+  color: white;
+  margin-bottom: 30px;
 }
 
 .bloc-text{
