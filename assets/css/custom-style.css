@@ -1,4 +1,4 @@
-/* #343A40 */
+/* GENERAL */
 html {
   scroll-behavior: smooth;
 }
@@ -9,11 +9,29 @@ main{
  background-attachment: fixed;
 }
 
+p{
+  color: black;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.bloc-text{
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 30px;
+  border: 8px solid white;
+}
+
+/* HEADER */
+
 header{
   min-height: 70vh;
   background-image: url(./../img/header-bg2.svg);
   background-size: cover;
   background-position: bottom;
+}
+
+#header-title{
+  height: 300px;
 }
 
 h1{
@@ -28,19 +46,11 @@ h2{
   color: white;
 }
 
+/* NAV */
+
 nav li>a{
   font-size: 1rem;
   white-space: nowrap;
-}
-
-p{
-  color: black;
-  font-size: 1.2rem;
-  text-align: justify;
-}
-
-#header-title{
-  height: 300px;
 }
 
 .logo-navbar{
@@ -55,46 +65,57 @@ p{
   padding: 10px;
 }
 
+/* SECTION PRESENTATION */
+
 #presentation{
   min-height: 100vh;
 }
+
+#presentation h3{
+  font-size: 2.1rem;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Krona One', sans-serif;
+  font-weight: normal;
+}
+
+#presentation img{
+  width: 250px;
+  border-radius: 120px;
+  border: 8px solid white;
+}
+
+/* SECTION EXPERIENCE & FORMATIONS */
 
 #experience-formations{
   min-height: 100vh;
   padding-top: 100px;
 }
 
+#experience-formations h3{
+  font-size: 2.1rem;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Krona One', sans-serif;
+  font-weight: normal;
+}
+
+/* SECTION COMPETENCES */
+
 #competences{
   min-height: 100vh;
 }
 
-h3{
-  font-size: 2rem;
-  color: #462B4C;
-}
-
-#presentation h3{
-  font-size: 2.8rem;
-  color: white;
-  margin-bottom: 30px;
-}
-
-#experience-formations h3{
-  font-size: 2.8rem;
-  color: white;
-  margin-bottom: 30px;
+#competences h3{
+  font-size: 1.6rem;
 }
 
 #competences>div>div>div>h3{
-  font-size: 2.8rem;
+  font-size: 2.1rem;
   color: white;
   margin-bottom: 30px;
-}
-
-.bloc-text{
-  background-color: rgb(255, 255, 255, 0.9);
-  padding: 30px;
-  border: 8px solid white;
+  font-family: 'Krona One', sans-serif;
+  font-weight: normal;
 }
 
 .bloc-competences{
@@ -153,17 +174,7 @@ background-color: #0C68AC;
 background-color: #00009C;
 }
 
-
-#competences h3{
-  font-size: 1.6rem;
-}
-
-#presentation img{
-  width: 250px;
-  border-radius: 120px;
-  border: 8px solid white;
-}
-
+/* RESPONSIVE */
 
 @media screen and (min-width:1200px){
 
