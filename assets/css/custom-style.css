@@ -11,7 +11,7 @@ main{
 
 p{
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.3em;
   text-align: justify;
 }
 
@@ -35,7 +35,7 @@ header{
 }
 
 h1{
-  font-size: 4rem;
+  font-size: 4em;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -72,7 +72,7 @@ nav li>a{
 }
 
 #presentation h3{
-  font-size: 2.1rem;
+  font-size: 2.1em;
   color: white;
   margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
@@ -93,7 +93,7 @@ nav li>a{
 }
 
 #experience-formations h3{
-  font-size: 2.1rem;
+  font-size: 2.1em;
   color: white;
   margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
@@ -107,11 +107,11 @@ nav li>a{
 }
 
 #competences h3{
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 
 #competences>div>div>div>h3{
-  font-size: 2.1rem;
+  font-size: 2.1em;
   color: white;
   margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
@@ -177,6 +177,26 @@ background-color: #00009C;
 .arrow-fixed-bottom{
   font-size: 3.5rem;
   color: white;
+}
+
+/* SECTION PROJETS */
+
+#projets{
+  min-height: 100vh;
+}
+
+#projets>div>div>div>h3{
+  font-size: 2.1em;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Krona One', sans-serif;
+  font-weight: normal;
+}
+
+.bloc-projets{
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 30px;
+  border: 8px solid white;
 }
 
 /* RESPONSIVE */
