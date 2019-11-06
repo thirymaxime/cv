@@ -185,6 +185,14 @@ background-color: #00009C;
   min-height: 100vh;
 }
 
+#projets h3{
+  font-size: 1.6em;
+}
+
+#projets h4{
+  font-size: 1em;
+}
+
 #projets>div>div>div>h3{
   font-size: 2.1em;
   color: white;
@@ -195,8 +203,19 @@ background-color: #00009C;
 
 .bloc-projets{
   background-color: rgb(255, 255, 255, 0.9);
-  padding: 30px;
+  padding: 5px;
   border: 8px solid white;
+}
+
+.text-padding-projets{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.link-cleaner-world{
+  font-size: 1.5em;
+  color: #205e05;
+
 }
 
 /* RESPONSIVE */
