@@ -193,10 +193,9 @@ background-color: #00009C;
   font-size: 1em;
 }
 
-#projets>div>div>div>h3{
+#projets>div>h3{
   font-size: 2.1em;
   color: white;
-  margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
   font-weight: normal;
 }
@@ -215,6 +214,18 @@ background-color: #00009C;
 .link-cleaner-world{
   font-size: 1.5em;
   color: #205e05;
+
+}
+
+.link-mega-studio{
+  font-size: 1.5em;
+  color :#20336E;
+
+}
+
+.link-roulette{
+  font-size: 1.5em;
+  color :#AF3A1F;
 
 }
 
