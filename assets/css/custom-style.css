@@ -36,6 +36,10 @@ p{
   padding: 30px;
   border: 8px solid white;
 }
+.responsive-aos-fix{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 /* header */
 header{
   min-height: 70vh;
