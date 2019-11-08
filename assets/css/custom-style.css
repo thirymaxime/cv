@@ -256,8 +256,77 @@ footer .btn-primary:active{
     order: 1;
   }
 }
-/* @media screen and (max-width: 480px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
+/* Media query smartphone */
+@media screen and (max-height:823px){
+  nav{
+    margin-bottom: 30vh;
   }
-} */
+  #experience-formations{
+    margin-top: 200px;
+  }
+  #competences{
+    margin-top: 200px;
+  }
+  #projets{
+    margin-top: 200px;
+  }
+  #contact{
+    margin-top: 200px;
+  }
+  #presentation>div{
+    margin-bottom: 50px;
+  }
+  #experience-formations>div{
+    margin-bottom: 50px;
+  }
+  #competences .bloc-competences{
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+  #projets .bloc-projets{
+    margin-bottom: 50px;
+  }
+  #contact>div{
+    margin-bottom: 50px;
+  }
+  .button-top{
+    display: none;
+  }
+}
+@media screen and (max-width:768px){
+  nav{
+    margin-bottom: 40vh;
+  }
+  #experience-formations{
+    margin-top: 200px;
+  }
+  #competences{
+    margin-top: 200px;
+  }
+  #projets{
+    margin-top: 200px;
+  }
+  #contact{
+    margin-top: 200px;
+  }
+  #presentation>div{
+    margin-bottom: 50px;
+  }
+  #experience-formations>div{
+    margin-bottom: 50px;
+  }
+  #projets .bloc-projets{
+    margin-bottom: 50px;
+  }
+  #contact>div{
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width:1024px){
+  nav{
+    margin-bottom: 20vh;
+  }
+  #projets .bloc-projets{
+    margin-bottom: 50px;
+  }
+}
