@@ -184,22 +184,53 @@ background-color: #00009C;
   background-color: rgb(255, 255, 255, 0.9);
   padding: 5px;
   border: 8px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 .text-padding-projets{
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 .link-cleaner-world{
   font-size: 1.5em;
   color: #205e05;
 }
+.btn-cleaner-world{
+  width: 50%;
+  background-color: #205e05;
+  color: white;
+  font-size: 1.5em;
+}
 .link-mega-studio{
   font-size: 1.5em;
   color :#20336E;
 }
+.btn-mega-studio{
+  width: 50%;
+  background-color: #20336E;
+  color: white;
+  font-size: 1.5em;
+}
 .link-roulette{
   font-size: 1.5em;
-  color :#AF3A1F;
+  color :#e1003c;
+}
+.btn-roulette{
+  width: 50%;
+  background-color: #e1003c;
+  color: white;
+  font-size: 1.5em;
+}
+.link-collection-box{
+  font-size: 1.5em;
+  color :#4f3423;
+}
+.btn-collection-box{
+  width: 50%;
+  background-color: #4f3423;
+  color: white;
+  font-size: 1.5em;
 }
 /* section contact */
 #contact{
