@@ -24,4 +24,12 @@ $(function init(){
   $('div.logos-navbar > a:nth-child(3)').mouseout(function(){
     $('div.logos-navbar > a:nth-child(3) > img').attr('src', 'assets/img/email-logo.png');
   });
+  $('#navbarSupportedContent>ul>li>a').on('click', function(){
+    $('#navbarSupportedContent').collapse('hide');
+  });
+  $(document).click(function(e) {
+	if (!$(e.target).is('nav')) {
+    	$('#navbarSupportedContent').collapse('hide');
+    };
+  });
 });
