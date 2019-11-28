@@ -122,8 +122,8 @@ nav li>a{
   border: 8px solid white;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .text-bloc-competences{
   color: black;
@@ -156,6 +156,9 @@ background-color: #F05033;
 }
 .progress-bar-jquery{
 background-color: #0C68AC;
+}
+.progress-bar-wordpress{
+background-color: #353535;
 }
 .progress-bar-anglais{
 background-color: #00009C;
