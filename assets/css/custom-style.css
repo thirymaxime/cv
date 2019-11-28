@@ -106,10 +106,10 @@ nav li>a{
 #competences{
   min-height: 100vh;
 }
-#competences h3{
+#competences h4{
   font-size: 1.6em;
 }
-#competences>div>div>div>h3{
+#competences h3{
   font-size: 2.1em;
   color: white;
   margin-bottom: 30px;
@@ -171,13 +171,10 @@ background-color: #00009C;
 #projets{
   min-height: 100vh;
 }
-#projets h3{
+#projets h4{
   font-size: 1.6em;
 }
-#projets h4{
-  font-size: 1em;
-}
-#projets>div>h3{
+#projets h3{
   font-size: 2.1em;
   color: white;
   font-family: 'Krona One', sans-serif;
