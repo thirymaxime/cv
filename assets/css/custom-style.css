@@ -232,6 +232,18 @@ background-color: #00009C;
   color: white;
   font-size: 1.5em;
 }
+.btn-time-piece{
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+}
+.btn-numeri-school{
+  width: 50%;
+  background-color: #32A7DD;
+  color: white;
+  font-size: 1.5em;
+}
 /* section contact */
 #contact{
   min-height: 95vh;
