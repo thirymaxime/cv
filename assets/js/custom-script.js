@@ -1,6 +1,7 @@
 $(function init(){
   AOS.init({
-    disable: 'phone'
+    disable: 'phone',
+    once: true
   });
   $('[data-toggle="github-tooltip"]').tooltip();
   $('[data-toggle="linkedin-tooltip"]').tooltip();
